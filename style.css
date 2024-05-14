@@ -1,0 +1,21 @@
+
+h1{
+    color: red;
+    text-align: center;
+}
+.flag{
+    background-color: green;
+    width: 700px;
+    height: 420px;
+    margin: auto;
+    position: relative;
+}
+.flag > div > div {
+    background-color: red;
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 210px;
+}
